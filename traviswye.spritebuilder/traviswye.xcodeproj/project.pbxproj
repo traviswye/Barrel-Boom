@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		B3536FF8197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = B3536FF7197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m */; };
+		B358670319744CC4001297ED /* gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B358670219744CC4001297ED /* gameplay.m */; };
+		B3586707197469AE001297ED /* Obstacles.m in Sources */ = {isa = PBXBuildFile; fileRef = B3586706197469AE001297ED /* Obstacles.m */; };
+		B358670A19760AC9001297ED /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = B358670919760AC9001297ED /* Hero.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -57,6 +61,14 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B3536FF6197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCActionFollowAxisHorizontal.h; path = Source/CCActionFollowAxisHorizontal.h; sourceTree = "<group>"; };
+		B3536FF7197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCActionFollowAxisHorizontal.m; path = Source/CCActionFollowAxisHorizontal.m; sourceTree = "<group>"; };
+		B358670119744CC4001297ED /* gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gameplay.h; path = Source/gameplay.h; sourceTree = "<group>"; };
+		B358670219744CC4001297ED /* gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gameplay.m; path = Source/gameplay.m; sourceTree = "<group>"; };
+		B3586705197469AE001297ED /* Obstacles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Obstacles.h; path = Source/Obstacles.h; sourceTree = "<group>"; };
+		B3586706197469AE001297ED /* Obstacles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Obstacles.m; path = Source/Obstacles.m; sourceTree = "<group>"; };
+		B358670819760AC9001297ED /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Source/Hero.h; sourceTree = "<group>"; };
+		B358670919760AC9001297ED /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hero.m; path = Source/Hero.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -125,10 +137,18 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B3536FF6197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.h */,
+				B3536FF7197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				B358670119744CC4001297ED /* gameplay.h */,
+				B358670219744CC4001297ED /* gameplay.m */,
+				B358670819760AC9001297ED /* Hero.h */,
+				B358670919760AC9001297ED /* Hero.m */,
+				B3586705197469AE001297ED /* Obstacles.h */,
+				B3586706197469AE001297ED /* Obstacles.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -340,7 +360,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3586707197469AE001297ED /* Obstacles.m in Sources */,
+				B358670A19760AC9001297ED /* Hero.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				B358670319744CC4001297ED /* gameplay.m in Sources */,
+				B3536FF8197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
@@ -373,6 +397,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "D0190417-620E-479A-82FE-5BF5C154209A";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +417,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "D0190417-620E-479A-82FE-5BF5C154209A";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -403,8 +429,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Benjamin Encz (THSSLA6DMD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benjamin Encz (THSSLA6DMD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -426,7 +452,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = traviswye;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "D0190417-620E-479A-82FE-5BF5C154209A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -437,8 +463,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Benjamin Encz (THSSLA6DMD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benjamin Encz (THSSLA6DMD)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
@@ -458,7 +484,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = traviswye;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "D0190417-620E-479A-82FE-5BF5C154209A";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

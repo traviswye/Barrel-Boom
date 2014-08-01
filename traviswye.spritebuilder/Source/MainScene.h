@@ -7,7 +7,10 @@
 //
 
 #import "CCNode.h"
+#import "gameplay.h"
 
 @interface MainScene : CCNode
 
+
+//-(void) gameOver;
 @end
