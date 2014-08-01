@@ -172,7 +172,7 @@
 //        int tw = 1*random()%1000;
 //        NSLog(@"random number = %i",tw);
 //        [self addPlatform];
-        [self addThrowableStroid];
+//        [self addThrowableStroid];
         if (totcount %6==0){
             [self addThrowable];
         }
