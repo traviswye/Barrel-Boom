@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>tutorial/Gesture_Swipe_Bottom@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 96}, {64, 87}}</string>
+			<key>offset</key>
+			<string>{14, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{32, 11}, {64, 87}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>tutorial/Gesture_Swipe_Left@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 185}, {86, 65}}</string>
+			<key>offset</key>
+			<string>{-4, -11}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 29}, {86, 65}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>tutorial/Gesture_Swipe_Right@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{89, 1}, {86, 62}}</string>
+			<key>offset</key>
+			<string>{4, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{11, 27}, {86, 62}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>tutorial/Gesture_Swipe_Up@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {64, 93}}</string>
+			<key>offset</key>
+			<string>{11, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{29, 3}, {64, 93}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+		<key>textureFileName</key>
+		<string>tutorial.png</string>
+	</dict>
+</dict>
+</plist>

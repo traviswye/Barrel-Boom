@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>oriental/4_Point_Ninja_Shuriken.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{272, 544}, {244, 245}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{6, 6}, {244, 245}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>oriental/Dark-Floor@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{964, 342}, {960, 136}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {960, 136}}</string>
+			<key>sourceSize</key>
+			<string>{960, 136}</string>
+		</dict>
+		<key>oriental/Gong@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1831, 480}, {207, 241}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {207, 241}}</string>
+			<key>sourceSize</key>
+			<string>{207, 241}</string>
+		</dict>
+		<key>oriental/MC-RE02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 544}, {269, 252}}</string>
+			<key>offset</key>
+			<string>{-120, 7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{24, 19}, {269, 252}}</string>
+			<key>sourceSize</key>
+			<string>{558, 304}</string>
+		</dict>
+		<key>oriental/Mountains@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{964, 1}, {960, 339}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {960, 339}}</string>
+			<key>sourceSize</key>
+			<string>{960, 339}</string>
+		</dict>
+		<key>oriental/Pagoda@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1478, 794}, {339, 253}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {339, 253}}</string>
+			<key>sourceSize</key>
+			<string>{339, 253}</string>
+		</dict>
+		<key>oriental/Sun@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1831, 723}, {131, 131}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {131, 131}}</string>
+			<key>sourceSize</key>
+			<string>{131, 131}</string>
+		</dict>
+		<key>oriental/Sunset-Background@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {961, 541}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {961, 541}}</string>
+			<key>sourceSize</key>
+			<string>{961, 541}</string>
+		</dict>
+		<key>oriental/Tower@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1478, 480}, {351, 312}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {351, 312}}</string>
+			<key>sourceSize</key>
+			<string>{351, 312}</string>
+		</dict>
+		<key>oriental/coins-09@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1926, 1}, {119, 119}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {119, 119}}</string>
+			<key>sourceSize</key>
+			<string>{119, 119}</string>
+		</dict>
+		<key>oriental/md-Ninja-Star.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1926, 206}, {49, 47}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {49, 47}}</string>
+			<key>sourceSize</key>
+			<string>{49, 49}</string>
+		</dict>
+		<key>oriental/mount-fuji-wallpaper.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{964, 480}, {512, 384}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {512, 384}}</string>
+			<key>sourceSize</key>
+			<string>{512, 384}</string>
+		</dict>
+		<key>oriental/oriental-background@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1926, 122}, {104, 82}}</string>
+			<key>offset</key>
+			<string>{0, 11}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {104, 82}}</string>
+			<key>sourceSize</key>
+			<string>{104, 104}</string>
+		</dict>
+		<key>oriental/sm-Ninja-Star.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1977, 206}, {24, 23}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 23}}</string>
+			<key>sourceSize</key>
+			<string>{24, 24}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>oriental.png</string>
+	</dict>
+</dict>
+</plist>

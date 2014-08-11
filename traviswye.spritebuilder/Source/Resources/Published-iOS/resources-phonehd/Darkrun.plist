@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Darkrun/BG1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{503, 661}, {500, 176}}</string>
+			<key>offset</key>
+			<string>{0, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {500, 176}}</string>
+			<key>sourceSize</key>
+			<string>{500, 180}</string>
+		</dict>
+		<key>Darkrun/BGG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 661}, {500, 180}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {500, 180}}</string>
+			<key>sourceSize</key>
+			<string>{500, 180}</string>
+		</dict>
+		<key>Darkrun/base1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{703, 1}, {290, 54}}</string>
+			<key>offset</key>
+			<string>{0, -3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 6}, {290, 54}}</string>
+			<key>sourceSize</key>
+			<string>{300, 60}</string>
+		</dict>
+		<key>Darkrun/bg2-f.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 843}, {500, 178}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {500, 178}}</string>
+			<key>sourceSize</key>
+			<string>{500, 180}</string>
+		</dict>
+		<key>Darkrun/bg2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{503, 839}, {500, 176}}</string>
+			<key>offset</key>
+			<string>{0, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {500, 176}}</string>
+			<key>sourceSize</key>
+			<string>{500, 180}</string>
+		</dict>
+		<key>Darkrun/bg3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{703, 57}, {500, 180}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {500, 180}}</string>
+			<key>sourceSize</key>
+			<string>{500, 180}</string>
+		</dict>
+		<key>Darkrun/light.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {700, 658}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {700, 658}}</string>
+			<key>sourceSize</key>
+			<string>{700, 658}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>textureFileName</key>
+		<string>Darkrun.png</string>
+	</dict>
+</dict>
+</plist>

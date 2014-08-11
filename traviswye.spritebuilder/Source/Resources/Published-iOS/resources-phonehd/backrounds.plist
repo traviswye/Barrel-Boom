@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>backrounds/Long-Sword@4x-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1777, 53}, {50, 268}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {50, 268}}</string>
+			<key>sourceSize</key>
+			<string>{50, 268}</string>
+		</dict>
+		<key>backrounds/Long-Sword@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1777, 1}, {268, 50}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {268, 50}}</string>
+			<key>sourceSize</key>
+			<string>{268, 50}</string>
+		</dict>
+		<key>backrounds/Pixel-Alien-9@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1907, 213}, {127, 81}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {127, 81}}</string>
+			<key>sourceSize</key>
+			<string>{127, 81}</string>
+		</dict>
+		<key>backrounds/barrel@4x-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 105}, {106, 114}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {106, 114}}</string>
+			<key>sourceSize</key>
+			<string>{106, 114}</string>
+		</dict>
+		<key>backrounds/clouds.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 1}, {748, 183}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {748, 183}}</string>
+			<key>sourceSize</key>
+			<string>{748, 183}</string>
+		</dict>
+		<key>backrounds/cloudy-sky-hd.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 508}, {480, 320}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {480, 320}}</string>
+			<key>sourceSize</key>
+			<string>{480, 320}</string>
+		</dict>
+		<key>backrounds/cloudy-sky-ip5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 186}, {568, 320}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {568, 320}}</string>
+			<key>sourceSize</key>
+			<string>{568, 320}</string>
+		</dict>
+		<key>backrounds/cloudy-sky-ipad.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1597, 296}, {512, 384}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {512, 384}}</string>
+			<key>sourceSize</key>
+			<string>{512, 384}</string>
+		</dict>
+		<key>backrounds/cloudy-sky-ipadhd.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {1024, 768}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1024, 768}}</string>
+			<key>sourceSize</key>
+			<string>{1024, 768}</string>
+		</dict>
+		<key>backrounds/half sword.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1777, 105}, {50, 144}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {50, 144}}</string>
+			<key>sourceSize</key>
+			<string>{50, 144}</string>
+		</dict>
+		<key>backrounds/horizontal_moving_platform2@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1597, 186}, {125, 31}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {125, 31}}</string>
+			<key>sourceSize</key>
+			<string>{125, 31}</string>
+		</dict>
+		<key>backrounds/object_mine-objects_9ef7e43ae6c1aa1cbffae3d3a6273d4c42345870@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1777, 157}, {128, 113}}</string>
+			<key>offset</key>
+			<string>{0, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 15}, {128, 113}}</string>
+			<key>sourceSize</key>
+			<string>{128, 128}</string>
+		</dict>
+		<key>backrounds/set_doggy-land_b736878e6992de1045343c155f0effa350f73425@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1983, 296}, {64, 64}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {64, 64}}</string>
+			<key>sourceSize</key>
+			<string>{64, 64}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>backrounds.png</string>
+	</dict>
+</dict>
+</plist>
