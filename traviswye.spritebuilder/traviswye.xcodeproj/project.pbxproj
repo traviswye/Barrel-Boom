@@ -12,6 +12,8 @@
 		B358670319744CC4001297ED /* gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B358670219744CC4001297ED /* gameplay.m */; };
 		B3586707197469AE001297ED /* Obstacles.m in Sources */ = {isa = PBXBuildFile; fileRef = B3586706197469AE001297ED /* Obstacles.m */; };
 		B358670A19760AC9001297ED /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = B358670919760AC9001297ED /* Hero.m */; };
+		B3F9B51F199356A300A75E21 /* GameEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9B51E199356A300A75E21 /* GameEnd.m */; };
+		B3F9B5231994568600A75E21 /* tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9B5221994568600A75E21 /* tutorial.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -69,6 +71,10 @@
 		B3586706197469AE001297ED /* Obstacles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Obstacles.m; path = Source/Obstacles.m; sourceTree = "<group>"; };
 		B358670819760AC9001297ED /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Source/Hero.h; sourceTree = "<group>"; };
 		B358670919760AC9001297ED /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hero.m; path = Source/Hero.m; sourceTree = "<group>"; };
+		B3F9B51D199356A300A75E21 /* GameEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEnd.h; sourceTree = "<group>"; };
+		B3F9B51E199356A300A75E21 /* GameEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEnd.m; sourceTree = "<group>"; };
+		B3F9B5211994568600A75E21 /* tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tutorial.h; path = Source/tutorial.h; sourceTree = "<group>"; };
+		B3F9B5221994568600A75E21 /* tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tutorial.m; path = Source/tutorial.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -145,8 +151,12 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				B358670119744CC4001297ED /* gameplay.h */,
 				B358670219744CC4001297ED /* gameplay.m */,
+				B3F9B5211994568600A75E21 /* tutorial.h */,
+				B3F9B5221994568600A75E21 /* tutorial.m */,
 				B358670819760AC9001297ED /* Hero.h */,
 				B358670919760AC9001297ED /* Hero.m */,
+				B3F9B51D199356A300A75E21 /* GameEnd.h */,
+				B3F9B51E199356A300A75E21 /* GameEnd.m */,
 				B3586705197469AE001297ED /* Obstacles.h */,
 				B3586706197469AE001297ED /* Obstacles.m */,
 			);
@@ -361,10 +371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3586707197469AE001297ED /* Obstacles.m in Sources */,
+				B3F9B5231994568600A75E21 /* tutorial.m in Sources */,
 				B358670A19760AC9001297ED /* Hero.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B358670319744CC4001297ED /* gameplay.m in Sources */,
 				B3536FF8197DA8EB00EDA29E /* CCActionFollowAxisHorizontal.m in Sources */,
+				B3F9B51F199356A300A75E21 /* GameEnd.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);

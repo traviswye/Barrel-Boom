@@ -80,6 +80,13 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
+		<key>Darkrun</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Sprites</key>
 		<dict/>
 		<key>backrounds</key>
@@ -171,11 +178,18 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>oriental</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>runright</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>tutorial</key>
+		<dict/>
 	</dict>
 	<key>versionStr</key>
 	<string>Version: 1.1.0

@@ -14,11 +14,18 @@
    
   }
  @property (weak) CCNode* cartNode;
-
+@property (nonatomic, assign) NSInteger score;
+@property (nonatomic, assign) NSInteger highscore;
 -(void) initialize;
 -(void) addObstacle;
 -(void) throwM;
--(void) depInCart;
+//-(void) depInCart;
+
+
+
+
+
+
 
 
 
