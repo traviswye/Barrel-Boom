@@ -144,7 +144,8 @@
 {
     //Do stuff with scores in here! Display them!
     NSArray *scoreall = scores [@"all"];
-    for (int i =scoreall.count-1; i>=0; i--){
+    
+    for (int i =5; i>=0; i--){
         NSNumber *point = scoreall[i][@"score"];
         NSString *name = scoreall[i][@"name"];
         CCLabelTTF *nameslab = [CCLabelTTF labelWithString:name fontName:(@"Verdana-Bold") fontSize:(18.f)];
