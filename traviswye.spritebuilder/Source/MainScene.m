@@ -102,12 +102,6 @@
 }
 -(void)moreGames{
     [MGWU displayCrossPromo];
-    _credsbutton.enabled = false;
-    _settingsButton.enabled = false;
-    _playbut.enabled = false;
-    _hscores.enabled = false;
-    _moregames.enabled = false;
-    _tutbut.enabled = false;
 }
 -(void)onEnter{
    [[OALSimpleAudio sharedInstance] playBg:@"gameplayFinal1.m4a" loop: true];
