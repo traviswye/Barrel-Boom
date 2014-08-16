@@ -8,8 +8,8 @@
 
 #import "CCNode.h"
 
-@interface Obstacles : CCNode
+@interface Obstacles : CCSprite
 
+@property(nonatomic, assign)BOOL Collidable;
 
-- (void) setupRandomPos;
 @end

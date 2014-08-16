@@ -82,8 +82,11 @@
 		</dict>
 		<key>Darkrun</key>
 		<dict>
-			<key>isDirty</key>
+			<key>isSmartSpriteSheet</key>
 			<true/>
+		</dict>
+		<key>GUI</key>
+		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
@@ -178,6 +181,13 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>hero</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>oriental</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
@@ -190,6 +200,11 @@
 		</dict>
 		<key>tutorial</key>
 		<dict/>
+		<key>zombisprite</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>versionStr</key>
 	<string>Version: 1.1.0

@@ -19,8 +19,16 @@
     CCNode *_right;
     CCNode *_curNode;
     
+    CCNode *_mons;
+    CCNode *_ghost;
+    CCNode *_coin;
+    CCNode *_tomb;
+    CCNode *_bar;
+    CCNode *_star;
+    
     CCButton *_nextButton;
     CCButton *_playButton;
+    
     
     BOOL up;
     bool down;
@@ -36,16 +44,27 @@
 
 -(void) didLoadFromCCB{
     NSString *u = @"Swipe up to Jump";
-    NSString *d = @"Swipe down to accelerate downwards";
+    NSString *d = @"             Swipe down \n to accelerate downwards";
     NSString *r= @"Swipe right to throw object";
     NSString *l = @"Swipe left to store object";
-    NSString *Coin = @"Pickup coins for 5 points each";
-    NSString *Obj = @"Objects can be thrown to destroy monsters for 100 points";
-     _commands = @[d, r, l, Obj];
+    NSString *Coin = @"       Avoid Obstacles while \n          collecting coins";
+    NSString *Obj = @"            Objects can be \n         thrown to destroy \n  monsters for 25 or 10 points";
+     _commands = @[d, r, l,Coin, Obj];
     i = 0;
+    _mons.visible = false;
+    _ghost.visible = false;
+    _tomb.visible = false;
+    _coin.visible = false;
+    _bar.visible = false;
+    _star.visible = false;
+    
+    self.userInteractionEnabled = true;
+    
 }
 
-
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
+    
+}
 
 - (void)next1{
     _up.visible = false;
@@ -58,15 +77,34 @@
         _right.visible = false;
         _left.visible = true;
 
-    }if(i ==3){
+    }if(i==3){
+        _right.visible = false;
+        _left.visible = false;
+        _tomb.visible = true;
+        _coin.visible = true;
+        
+    }if(i ==4){
+        _tomb.visible = false;
+        _coin.visible = false;
         _left.visible = false;
         _nextButton.visible = false;
         _playButton.visible = TRUE;
+        _mons.visible=true;
+        _ghost.visible = true;
+        _bar.visible = true;
+        _star.visible = true;
         //add monsters
         //wrap text
+    }if (i==5){
+        _nextButton.visible = false;
+        
     }
     
+    
+    
     _swipeInstruct.string = _commands[i];
+    _swipeInstruct.color =  [CCColor colorWithRed:1.f green:.753 blue:.3176];
+    _swipeInstruct.fontName = (@"Verdana-Bold");
     i++;
 
 }

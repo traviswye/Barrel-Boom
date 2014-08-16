@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -38,7 +38,97 @@
 		<key>baseClass</key>
 		<string>CCSprite</string>
 		<key>children</key>
-		<array/>
+		<array>
+			<dict>
+				<key>UUID</key>
+				<integer>2</integer>
+				<key>baseClass</key>
+				<string>CCSprite</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>tstone</string>
+				<key>memberVarAssignmentName</key>
+				<string></string>
+				<key>memberVarAssignmentType</key>
+				<integer>1</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.64999997615814209</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>0.79591822624206543</real>
+							<real>0.56606972217559814</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>zombisprite/tstone.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</array>
 		<key>customClass</key>
 		<string></string>
 		<key>displayName</key>
@@ -74,92 +164,56 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>-23.000030517578125</real>
+					<real>-29.99609375</real>
 				</array>
 				<array>
-					<real>7.999969482421875</real>
-					<real>40.999984741210938</real>
+					<real>-14.000030517578125</real>
+					<real>9</real>
 				</array>
 				<array>
-					<real>24.898406982421875</real>
-					<real>45.777328491210938</real>
+					<real>-2.000030517578125</real>
+					<real>20</real>
 				</array>
 				<array>
-					<real>36.925750732421875</real>
-					<real>54.945297241210938</real>
+					<real>19.999969482421875</real>
+					<real>19</real>
 				</array>
 				<array>
-					<real>43.996063232421875</real>
-					<real>45.515609741210938</real>
+					<real>32.999969482421875</real>
+					<real>6</real>
 				</array>
 				<array>
-					<real>43.343719482421875</real>
-					<real>44.332015991210938</real>
-				</array>
-				<array>
-					<real>59.398406982421875</real>
-					<real>44.832015991210938</real>
-				</array>
-				<array>
-					<real>64</real>
-					<real>0.0</real>
+					<real>22.999969482421875</real>
+					<real>-29.99609375</real>
 				</array>
 			</array>
 			<key>polygons</key>
 			<array>
 				<array>
 					<array>
-						<real>7.999969482421875</real>
-						<real>40.999984741210938</real>
+						<real>22.999969482421875</real>
+						<real>-29.99609375</real>
 					</array>
 					<array>
-						<real>0.0</real>
-						<real>0.0</real>
+						<real>32.999969482421875</real>
+						<real>6</real>
 					</array>
 					<array>
-						<real>64</real>
-						<real>0.0</real>
+						<real>19.999969482421875</real>
+						<real>19</real>
 					</array>
 					<array>
-						<real>59.398406982421875</real>
-						<real>44.832015991210938</real>
+						<real>-2.000030517578125</real>
+						<real>20</real>
 					</array>
 					<array>
-						<real>43.343719482421875</real>
-						<real>44.332015991210938</real>
-					</array>
-				</array>
-				<array>
-					<array>
-						<real>24.898406982421875</real>
-						<real>45.777328491210938</real>
+						<real>-14.000030517578125</real>
+						<real>9</real>
 					</array>
 					<array>
-						<real>7.999969482421875</real>
-						<real>40.999984741210938</real>
-					</array>
-					<array>
-						<real>43.343719482421875</real>
-						<real>44.332015991210938</real>
-					</array>
-				</array>
-				<array>
-					<array>
-						<real>43.343719482421875</real>
-						<real>44.332015991210938</real>
-					</array>
-					<array>
-						<real>43.996063232421875</real>
-						<real>45.515609741210938</real>
-					</array>
-					<array>
-						<real>36.925750732421875</real>
-						<real>54.945297241210938</real>
-					</array>
-					<array>
-						<real>24.898406982421875</real>
-						<real>45.777328491210938</real>
+						<real>-23.000030517578125</real>
+						<real>-29.99609375</real>
 					</array>
 				</array>
 			</array>
@@ -220,7 +274,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>backrounds/object_mine-objects_9ef7e43ae6c1aa1cbffae3d3a6273d4c42345870@4x.png</string>
+					<string></string>
 				</array>
 			</dict>
 			<dict>

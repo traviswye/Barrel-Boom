@@ -9,10 +9,13 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
-		<string>runright.plist</string>
+		<string>GUI.plist</string>
 		<string>backrounds.plist</string>
+		<string>zombisprite.plist</string>
+		<string>hero.plist</string>
 		<string>Darkrun.plist</string>
 		<string>oriental.plist</string>
+		<string>runright.plist</string>
 	</array>
 </dict>
 </plist>

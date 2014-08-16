@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>zombisprite/aa99c1077ac929db28f8ccf48e3c55d8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{150, 303}, {64, 62}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {64, 62}}</string>
+			<key>sourceSize</key>
+			<string>{64, 64}</string>
+		</dict>
+		<key>zombisprite/attack (1).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{229, 362}, {32, 57}}</string>
+			<key>offset</key>
+			<string>{-2, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{11, 3}, {32, 57}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (2).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{214, 303}, {33, 57}}</string>
+			<key>offset</key>
+			<string>{-5, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 3}, {33, 57}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (3).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{183, 244}, {38, 57}}</string>
+			<key>offset</key>
+			<string>{-5, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 3}, {38, 57}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (4).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{183, 184}, {32, 58}}</string>
+			<key>offset</key>
+			<string>{-2, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{11, 2}, {32, 58}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (5).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{169, 369}, {33, 58}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{13, 2}, {33, 58}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (6).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{192, 404}, {38, 58}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{10, 2}, {38, 58}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/attack (7).png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{205, 464}, {43, 57}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7, 3}, {43, 57}}</string>
+			<key>sourceSize</key>
+			<string>{59, 60}</string>
+		</dict>
+		<key>zombisprite/ghost1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{149, 481}, {26, 29}}</string>
+			<key>offset</key>
+			<string>{2, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 0}, {26, 29}}</string>
+			<key>sourceSize</key>
+			<string>{30, 31}</string>
+		</dict>
+		<key>zombisprite/ghost2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{232, 427}, {26, 28}}</string>
+			<key>offset</key>
+			<string>{2, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 0}, {26, 28}}</string>
+			<key>sourceSize</key>
+			<string>{30, 30}</string>
+		</dict>
+		<key>zombisprite/ghost3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{149, 371}, {18, 29}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6, 2}, {18, 29}}</string>
+			<key>sourceSize</key>
+			<string>{29, 33}</string>
+		</dict>
+		<key>zombisprite/ghost4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{177, 481}, {26, 29}}</string>
+			<key>offset</key>
+			<string>{1, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 0}, {26, 29}}</string>
+			<key>sourceSize</key>
+			<string>{31, 32}</string>
+		</dict>
+		<key>zombisprite/ghost5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{122, 371}, {25, 29}}</string>
+			<key>offset</key>
+			<string>{2, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 4}, {25, 29}}</string>
+			<key>sourceSize</key>
+			<string>{31, 34}</string>
+		</dict>
+		<key>zombisprite/ghost6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 481}, {26, 29}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 0}, {26, 29}}</string>
+			<key>sourceSize</key>
+			<string>{33, 31}</string>
+		</dict>
+		<key>zombisprite/ghost7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{252, 396}, {26, 28}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {26, 28}}</string>
+			<key>sourceSize</key>
+			<string>{28, 30}</string>
+		</dict>
+		<key>zombisprite/ghost8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{232, 396}, {18, 29}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9, 1}, {18, 29}}</string>
+			<key>sourceSize</key>
+			<string>{30, 31}</string>
+		</dict>
+		<key>zombisprite/tstone.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {87, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {87, 100}}</string>
+			<key>sourceSize</key>
+			<string>{87, 100}</string>
+		</dict>
+		<key>zombisprite/walk1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 204}, {61, 99}}</string>
+			<key>offset</key>
+			<string>{0, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{10, 3}, {61, 99}}</string>
+			<key>sourceSize</key>
+			<string>{81, 112}</string>
+		</dict>
+		<key>zombisprite/walk2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 103}, {67, 99}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{10, 7}, {67, 99}}</string>
+			<key>sourceSize</key>
+			<string>{87, 117}</string>
+		</dict>
+		<key>zombisprite/walk3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 305}, {60, 99}}</string>
+			<key>offset</key>
+			<string>{3, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{13, 4}, {60, 99}}</string>
+			<key>sourceSize</key>
+			<string>{81, 111}</string>
+		</dict>
+		<key>zombisprite/walk4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 406}, {58, 97}}</string>
+			<key>offset</key>
+			<string>{5, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15, 11}, {58, 97}}</string>
+			<key>sourceSize</key>
+			<string>{78, 116}</string>
+		</dict>
+		<key>zombisprite/walk5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{64, 204}, {55, 97}}</string>
+			<key>offset</key>
+			<string>{8, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 4}, {55, 97}}</string>
+			<key>sourceSize</key>
+			<string>{94, 112}</string>
+		</dict>
+		<key>zombisprite/walk6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{70, 103}, {61, 95}}</string>
+			<key>offset</key>
+			<string>{2, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{13, 2}, {61, 95}}</string>
+			<key>sourceSize</key>
+			<string>{83, 105}</string>
+		</dict>
+		<key>zombisprite/walk7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{63, 305}, {57, 97}}</string>
+			<key>offset</key>
+			<string>{3, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{10, 1}, {57, 97}}</string>
+			<key>sourceSize</key>
+			<string>{71, 109}</string>
+		</dict>
+		<key>zombisprite/z3f1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 293}, {36, 8}}</string>
+			<key>offset</key>
+			<string>{-4, -6}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{11, 24}, {36, 8}}</string>
+			<key>sourceSize</key>
+			<string>{66, 44}</string>
+		</dict>
+		<key>zombisprite/z3f2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{122, 303}, {66, 26}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{15, 15}, {66, 26}}</string>
+			<key>sourceSize</key>
+			<string>{99, 56}</string>
+		</dict>
+		<key>zombisprite/z3f3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{150, 1}, {84, 48}}</string>
+			<key>offset</key>
+			<string>{0, 3}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {84, 48}}</string>
+			<key>sourceSize</key>
+			<string>{92, 58}</string>
+		</dict>
+		<key>zombisprite/z3f4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{133, 97}, {85, 62}}</string>
+			<key>offset</key>
+			<string>{0, 3}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{6, 3}, {85, 62}}</string>
+			<key>sourceSize</key>
+			<string>{97, 74}</string>
+		</dict>
+		<key>zombisprite/z3f5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 404}, {69, 75}}</string>
+			<key>offset</key>
+			<string>{1, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15, 16}, {69, 75}}</string>
+			<key>sourceSize</key>
+			<string>{97, 98}</string>
+		</dict>
+		<key>zombisprite/z3f6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{121, 200}, {60, 91}}</string>
+			<key>offset</key>
+			<string>{-4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{11, 2}, {60, 91}}</string>
+			<key>sourceSize</key>
+			<string>{91, 105}</string>
+		</dict>
+		<key>zombisprite/z3f7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{90, 1}, {58, 94}}</string>
+			<key>offset</key>
+			<string>{-3, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{11, 8}, {58, 94}}</string>
+			<key>sourceSize</key>
+			<string>{87, 110}</string>
+		</dict>
+		<key>zombisprite/z3f8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{61, 406}, {58, 97}}</string>
+			<key>offset</key>
+			<string>{4, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{18, 4}, {58, 97}}</string>
+			<key>sourceSize</key>
+			<string>{87, 109}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>textureFileName</key>
+		<string>zombisprite.png</string>
+	</dict>
+</dict>
+</plist>

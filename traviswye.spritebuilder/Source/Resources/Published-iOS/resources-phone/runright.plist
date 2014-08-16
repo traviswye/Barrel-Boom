@@ -7,7 +7,7 @@
 		<key>runright/Asteroids_128x128_006@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{223, 1}, {32, 32}}</string>
+			<string>{{223, 80}, {32, 32}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -20,7 +20,7 @@
 		<key>runright/Pixel-Alien-2@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{115, 1}, {52, 51}}</string>
+			<string>{{115, 54}, {52, 51}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>runright/Pixel-Alien-5@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{169, 1}, {52, 46}}</string>
+			<string>{{169, 54}, {52, 46}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>runright/obj_Run000-0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{169, 49}, {34, 38}}</string>
+			<string>{{210, 114}, {34, 38}}</string>
 			<key>offset</key>
 			<string>{0, -11}</string>
 			<key>rotated</key>
@@ -59,11 +59,11 @@
 		<key>runright/obj_Run001-1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{115, 54}, {27, 38}}</string>
+			<string>{{1, 107}, {27, 38}}</string>
 			<key>offset</key>
 			<string>{0, -11}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{19, 24}, {27, 38}}</string>
 			<key>sourceSize</key>
@@ -72,11 +72,11 @@
 		<key>runright/obj_Run002-2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 65}, {25, 38}}</string>
+			<string>{{229, 40}, {25, 38}}</string>
 			<key>offset</key>
 			<string>{1, -11}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{21, 24}, {25, 38}}</string>
 			<key>sourceSize</key>
@@ -85,11 +85,11 @@
 		<key>runright/obj_Run003-3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{223, 35}, {29, 39}}</string>
+			<string>{{169, 102}, {29, 39}}</string>
 			<key>offset</key>
 			<string>{0, -10}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{17, 23}, {29, 39}}</string>
 			<key>sourceSize</key>
@@ -98,7 +98,7 @@
 		<key>runright/obj_Run004-4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{80, 65}, {33, 35}}</string>
+			<string>{{30, 107}, {33, 35}}</string>
 			<key>offset</key>
 			<string>{0, -9}</string>
 			<key>rotated</key>
@@ -111,11 +111,11 @@
 		<key>runright/obj_Run005-5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{41, 65}, {27, 37}}</string>
+			<string>{{1, 65}, {27, 37}}</string>
 			<key>offset</key>
 			<string>{0, -10}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{19, 24}, {27, 37}}</string>
 			<key>sourceSize</key>
@@ -124,11 +124,11 @@
 		<key>runright/obj_Run006-6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 92}, {26, 37}}</string>
+			<string>{{229, 1}, {26, 37}}</string>
 			<key>offset</key>
 			<string>{1, -10}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{20, 24}, {26, 37}}</string>
 			<key>sourceSize</key>
@@ -137,15 +137,28 @@
 		<key>runright/obj_Run007-7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{209, 76}, {29, 38}}</string>
+			<string>{{1, 150}, {29, 38}}</string>
 			<key>offset</key>
 			<string>{0, -10}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{17, 23}, {29, 38}}</string>
 			<key>sourceSize</key>
 			<string>{64, 64}</string>
+		</dict>
+		<key>runright/trolley2@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{115, 1}, {112, 51}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {112, 51}}</string>
+			<key>sourceSize</key>
+			<string>{112, 51}</string>
 		</dict>
 		<key>runright/trolley@4x.png</key>
 		<dict>
@@ -159,6 +172,19 @@
 			<string>{{0, 0}, {112, 62}}</string>
 			<key>sourceSize</key>
 			<string>{112, 62}</string>
+		</dict>
+		<key>runright/wheel@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{30, 65}, {20, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 20}}</string>
+			<key>sourceSize</key>
+			<string>{20, 20}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

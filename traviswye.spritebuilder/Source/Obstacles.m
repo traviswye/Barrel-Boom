@@ -25,21 +25,21 @@ static const CGFloat maximumYPosition = 380.f;
 - (void)didLoadFromCCB {
 //    _topPipe.physicsBody.collisionType = @"level";
 //    _topPipe.physicsBody.sensor = YES;
+////    
+//    _spikes.physicsBody.collisionType = @"spikes";
+//    _spikes.physicsBody.sensor = YES;
 //    
-    _spikes.physicsBody.collisionType = @"spikes";
-    _spikes.physicsBody.sensor = YES;
-    
-    _thrownT.physicsBody.collisionType = @"barrell";
-    _thrownT.physicsBody.sensor = YES;
-    
-    _throwStroid.physicsBody.collisionType = @"stroid";
-    _throwStroid.physicsBody.sensor = YES;
-    
-    
-    _sword.physicsBody.collisionType = @"sword";
-    _sword.physicsBody.sensor =  YES;
-    self.physicsBody.collisionType = @"Obstacles";
-    
+////    _thrownT.physicsBody.collisionType = @"barrell";
+//    _thrownT.physicsBody.sensor = YES;
+//    
+//    _throwStroid.physicsBody.collisionType = @"stroid";
+//    _throwStroid.physicsBody.sensor = YES;
+//    
+//    
+//    _sword.physicsBody.collisionType = @"sword";
+//    _sword.physicsBody.sensor =  YES;
+//    self.physicsBody.collisionType = @"Obstacles";
+//    
     
     
     

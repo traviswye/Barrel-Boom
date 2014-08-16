@@ -20,7 +20,7 @@
 		<key>runright/Pixel-Alien-2@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{453, 1}, {208, 207}}</string>
+			<string>{{453, 207}, {208, 207}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>runright/Pixel-Alien-5@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{663, 1}, {208, 184}}</string>
+			<string>{{663, 207}, {208, 184}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>runright/obj_Run000-0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{873, 99}, {132, 148}}</string>
+			<string>{{663, 393}, {132, 148}}</string>
 			<key>offset</key>
 			<string>{-1, -44}</string>
 			<key>rotated</key>
@@ -59,7 +59,7 @@
 		<key>runright/obj_Run001-1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{453, 210}, {108, 146}}</string>
+			<string>{{813, 402}, {108, 146}}</string>
 			<key>offset</key>
 			<string>{2, -45}</string>
 			<key>rotated</key>
@@ -72,7 +72,7 @@
 		<key>runright/obj_Run002-2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{873, 1}, {96, 149}}</string>
+			<string>{{873, 304}, {96, 149}}</string>
 			<key>offset</key>
 			<string>{5, -44}</string>
 			<key>rotated</key>
@@ -85,11 +85,11 @@
 		<key>runright/obj_Run003-3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{663, 187}, {112, 151}}</string>
+			<string>{{903, 1}, {112, 151}}</string>
 			<key>offset</key>
 			<string>{-3, -43}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{69, 96}, {112, 151}}</string>
 			<key>sourceSize</key>
@@ -98,7 +98,7 @@
 		<key>runright/obj_Run004-4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{894, 345}, {128, 139}}</string>
+			<string>{{83, 416}, {128, 139}}</string>
 			<key>offset</key>
 			<string>{-3, -39}</string>
 			<key>rotated</key>
@@ -111,11 +111,11 @@
 		<key>runright/obj_Run005-5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{749, 345}, {105, 143}}</string>
+			<string>{{1, 612}, {105, 143}}</string>
 			<key>offset</key>
 			<string>{0, -43}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{76, 100}, {105, 143}}</string>
 			<key>sourceSize</key>
@@ -124,7 +124,7 @@
 		<key>runright/obj_Run006-6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{601, 301}, {98, 146}}</string>
+			<string>{{813, 512}, {98, 146}}</string>
 			<key>offset</key>
 			<string>{4, -43}</string>
 			<key>rotated</key>
@@ -137,15 +137,28 @@
 		<key>runright/obj_Run007-7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{816, 233}, {110, 148}}</string>
+			<string>{{903, 154}, {110, 148}}</string>
 			<key>offset</key>
 			<string>{-2, -42}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{71, 96}, {110, 148}}</string>
 			<key>sourceSize</key>
 			<string>{256, 256}</string>
+		</dict>
+		<key>runright/trolley2@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{453, 1}, {448, 204}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {448, 204}}</string>
+			<key>sourceSize</key>
+			<string>{448, 204}</string>
 		</dict>
 		<key>runright/trolley@4x.png</key>
 		<dict>
@@ -159,6 +172,19 @@
 			<string>{{0, 0}, {450, 250}}</string>
 			<key>sourceSize</key>
 			<string>{450, 250}</string>
+		</dict>
+		<key>runright/wheel@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 527}, {82, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {82, 80}}</string>
+			<key>sourceSize</key>
+			<string>{82, 80}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

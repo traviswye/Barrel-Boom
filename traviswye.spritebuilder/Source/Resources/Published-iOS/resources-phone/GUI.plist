@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>GUI/blankbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{947, 53}, {108, 47}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{5, 4}, {108, 47}}</string>
+			<key>sourceSize</key>
+			<string>{117, 55}</string>
+		</dict>
+		<key>GUI/credbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{919, 273}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 5}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{49, 54}</string>
+		</dict>
+		<key>GUI/darkblankbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{919, 163}, {108, 47}}</string>
+			<key>offset</key>
+			<string>{-5, 1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 2}, {108, 47}}</string>
+			<key>sourceSize</key>
+			<string>{122, 54}</string>
+		</dict>
+		<key>GUI/endgame.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{217, 217}, {77, 26}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{6, 3}, {77, 26}}</string>
+			<key>sourceSize</key>
+			<string>{89, 30}</string>
+		</dict>
+		<key>GUI/endgameSign.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{735, 113}, {182, 174}}</string>
+			<key>offset</key>
+			<string>{-2, -2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 18}, {182, 174}}</string>
+			<key>sourceSize</key>
+			<string>{202, 206}</string>
+		</dict>
+		<key>GUI/homebutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{508, 240}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1, 3}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{48, 53}</string>
+		</dict>
+		<key>GUI/info1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{968, 260}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7, 1}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{55, 50}</string>
+		</dict>
+		<key>GUI/info2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{622, 288}, {46, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {46, 46}}</string>
+			<key>sourceSize</key>
+			<string>{48, 50}</string>
+		</dict>
+		<key>GUI/menubgPNG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{261, 1}, {256, 146}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {256, 146}}</string>
+			<key>sourceSize</key>
+			<string>{256, 146}</string>
+		</dict>
+		<key>GUI/menupngtrans.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {258, 214}}</string>
+			<key>offset</key>
+			<string>{-2, 7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15, 0}, {258, 214}}</string>
+			<key>sourceSize</key>
+			<string>{293, 229}</string>
+		</dict>
+		<key>GUI/mg2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{947, 1}, {50, 52}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {50, 52}}</string>
+			<key>sourceSize</key>
+			<string>{50, 52}</string>
+		</dict>
+		<key>GUI/moreg1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{477, 288}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 3}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{48, 51}</string>
+		</dict>
+		<key>GUI/next.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{606, 240}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 4}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{50, 53}</string>
+		</dict>
+		<key>GUI/pausegmplay.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{508, 192}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2, 4}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{50, 52}</string>
+		</dict>
+		<key>GUI/pausetrans.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{735, 1}, {110, 210}}</string>
+			<key>offset</key>
+			<string>{-2, 2}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{15, 18}, {110, 210}}</string>
+			<key>sourceSize</key>
+			<string>{144, 251}</string>
+		</dict>
+		<key>GUI/playbutton1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{968, 308}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{52, 50}</string>
+		</dict>
+		<key>GUI/playbutton2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{606, 192}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 6}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{48, 58}</string>
+		</dict>
+		<key>GUI/restartbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{557, 240}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{49, 49}</string>
+		</dict>
+		<key>GUI/settings2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{718, 289}, {46, 46}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2, 3}, {46, 46}}</string>
+			<key>sourceSize</key>
+			<string>{49, 50}</string>
+		</dict>
+		<key>GUI/settingsbutton1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{655, 192}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 4}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{51, 52}</string>
+		</dict>
+		<key>GUI/settingsmenu2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 217}, {214, 188}}</string>
+			<key>offset</key>
+			<string>{0, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9, 6}, {214, 188}}</string>
+			<key>sourceSize</key>
+			<string>{232, 206}</string>
+		</dict>
+		<key>GUI/settingswindow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{519, 1}, {214, 189}}</string>
+			<key>offset</key>
+			<string>{1, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{10, 3}, {214, 189}}</string>
+			<key>sourceSize</key>
+			<string>{232, 201}</string>
+		</dict>
+		<key>GUI/share1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{968, 163}, {47, 47}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {47, 47}}</string>
+			<key>sourceSize</key>
+			<string>{52, 51}</string>
+		</dict>
+		<key>GUI/share2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{655, 240}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1, 4}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{49, 54}</string>
+		</dict>
+		<key>GUI/slidebar.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{245, 217}, {168, 13}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3, 3}, {168, 13}}</string>
+			<key>sourceSize</key>
+			<string>{172, 18}</string>
+		</dict>
+		<key>GUI/slidebutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{217, 296}, {22, 21}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 2}, {22, 21}}</string>
+			<key>sourceSize</key>
+			<string>{30, 25}</string>
+		</dict>
+		<key>GUI/slidehold.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{477, 149}, {137, 29}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3, 5}, {137, 29}}</string>
+			<key>sourceSize</key>
+			<string>{145, 35}</string>
+		</dict>
+		<key>GUI/soundoptionstrans.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{261, 149}, {214, 188}}</string>
+			<key>offset</key>
+			<string>{1, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{14, 5}, {214, 188}}</string>
+			<key>sourceSize</key>
+			<string>{240, 203}</string>
+		</dict>
+		<key>GUI/topscores1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{670, 288}, {46, 46}}</string>
+			<key>offset</key>
+			<string>{2, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 3}, {46, 46}}</string>
+			<key>sourceSize</key>
+			<string>{56, 52}</string>
+		</dict>
+		<key>GUI/topscores2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{574, 288}, {46, 46}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 3}, {46, 46}}</string>
+			<key>sourceSize</key>
+			<string>{49, 54}</string>
+		</dict>
+		<key>GUI/twit.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{557, 192}, {46, 47}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 4}, {46, 47}}</string>
+			<key>sourceSize</key>
+			<string>{49, 53}</string>
+		</dict>
+		<key>GUI/xbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{968, 212}, {47, 46}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 2}, {47, 46}}</string>
+			<key>sourceSize</key>
+			<string>{57, 50}</string>
+		</dict>
+		<key>GUI/xbuttonineed.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{526, 288}, {46, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 3}, {46, 46}}</string>
+			<key>sourceSize</key>
+			<string>{49, 53}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>textureFileName</key>
+		<string>GUI.png</string>
+	</dict>
+</dict>
+</plist>

@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>10</integer>
+	<integer>12</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,15 +41,15 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>2</integer>
+				<integer>10</integer>
 				<key>baseClass</key>
-				<string>CCNodeColor</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCNodeColor</string>
+				<string>endgameSign</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -71,22 +71,9 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-159</real>
-							<real>-94</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>contentSize</string>
-						<key>type</key>
-						<string>Size</string>
-						<key>value</key>
-						<array>
-							<real>300</real>
-							<real>200</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -98,8 +85,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -117,24 +104,27 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>GUI/endgameSign.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
 						<key>value</key>
 						<array>
-							<real>0.37414556741714478</real>
-							<real>0.12285061180591583</real>
-							<real>0.5933610200881958</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
 							<real>1</real>
 						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>opacity</string>
-						<key>type</key>
-						<string>Float</string>
-						<key>value</key>
-						<real>1</real>
 					</dict>
 				</array>
 			</dict>
@@ -170,8 +160,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-9.000030517578125</real>
-							<real>54.999969482421875</real>
+							<real>-3.000030517578125</real>
+							<real>48.999969482421875</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -218,7 +208,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Verdana-Bold</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -227,7 +217,7 @@
 						<string>FloatScale</string>
 						<key>value</key>
 						<array>
-							<real>30</real>
+							<real>25</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -238,6 +228,19 @@
 						<string>Check</string>
 						<key>value</key>
 						<false/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>0.75447225570678711</real>
+							<real>0.31764841079711914</real>
+							<real>1</real>
+						</array>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -433,8 +436,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-76.000030517578125</real>
-							<real>17.999984741210938</real>
+							<real>-36.699794769287109</real>
+							<real>15.378570556640625</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -491,7 +494,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Verdana-Bold</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -521,6 +524,19 @@
 						<string>Float</string>
 						<key>value</key>
 						<real>1</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>0.75447225570678711</real>
+							<real>0.31764841079711914</real>
+							<real>1</real>
+						</array>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -627,6 +643,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -694,8 +712,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>19.999969482421875</real>
-							<real>16.999984741210938</real>
+							<real>27.587444305419922</real>
+							<real>15.689277648925781</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -737,7 +755,7 @@
 						<string>Text</string>
 						<key>value</key>
 						<array>
-							<string>High Score</string>
+							<string>High Score:</string>
 							<false/>
 						</array>
 					</dict>
@@ -747,7 +765,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Verdana-Bold</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -767,6 +785,19 @@
 						<string>Check</string>
 						<key>value</key>
 						<false/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>0.75447225570678711</real>
+							<real>0.31764841079711914</real>
+							<real>1</real>
+						</array>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -908,8 +939,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-77.000030517578125</real>
-							<real>-9.0000152587890625</real>
+							<real>-37.203666687011719</real>
+							<real>-8.0339546203613281</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -956,7 +987,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Verdana-Bold</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -976,6 +1007,19 @@
 						<string>Check</string>
 						<key>value</key>
 						<false/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>0.75447225570678711</real>
+							<real>0.31764841079711914</real>
+							<real>1</real>
+						</array>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1115,7 +1159,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>23.999969482421875</real>
+							<real>27.932090759277344</real>
 							<real>-9.0000152587890625</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1163,7 +1207,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Verdana-Bold</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1183,6 +1227,19 @@
 						<string>Check</string>
 						<key>value</key>
 						<false/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>0.75447225570678711</real>
+							<real>0.31764841079711914</real>
+							<real>1</real>
+						</array>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1322,8 +1379,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-72.000030517578125</real>
-							<real>-56.000015258789062</real>
+							<real>-38.441257476806641</real>
+							<real>-52.757183074951172</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1371,8 +1428,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>49</real>
+							<real>49</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -1405,7 +1462,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Retry</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -1417,7 +1474,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>GUI/restartbutton.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1428,7 +1485,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>GUI/restartbutton.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1648,8 +1705,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>23.999969482421875</real>
-							<real>-57</real>
+							<real>25.407245635986328</real>
+							<real>-52.757171630859375</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1697,8 +1754,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>48</real>
+							<real>53</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -1731,7 +1788,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Menu</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -1743,7 +1800,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>GUI/homebutton.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1754,7 +1811,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>GUI/homebutton.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -2013,8 +2070,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

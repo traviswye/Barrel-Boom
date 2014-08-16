@@ -35,6 +35,7 @@
     float timeRotated;
     BOOL _HEROROTATED;
     int totcount;
+    CCNode *pausemenu;
 
     //background
     CCNode *_ground1;
@@ -61,23 +62,65 @@
     CCNode *_platform;
     CCButton *_resetButt;
     CCButton *_menubutton;
+    
+    CCButton *_pausebutton;
     CCNode * _planted;
     
     //scoring
     CCLabelTTF *_scoreLab;
     CCLabelTTF *_topscoreLab;
-    
-    
+    CCNode *_settingsmenu;
+    CCSlider *_musicslide;
+ 
 
     
 }
 
 
+-(void)changevol{
+    [OALSimpleAudio sharedInstance].bgVolume = _musicslide.sliderValue;
+}
 
+
+-(void)randomnew{
+    int rndValuey =  arc4random() % 2;
+    int rndValuex =  arc4random() % 2;
+    
+    if (rndValuey ==0){
+        if(rndValuex==0){
+        [self addMonster];
+        }else{
+        [self addThrowable];
+        }
+    }
+    else if (rndValuey ==1){
+        if(rndValuex ==1){
+            [self addAstroidMonster];
+        }else{
+        [self addThrowableStroid];
+        }
+    }
+}
+
+
+-(void)onEnter{
+    [super onEnter];
+    [self schedule:@selector(randomnew) interval:1.5f];
+    [self schedule:@selector(addCoins) interval:1.0f];
+    [self schedule:@selector(addObstacle) interval:3.0f];
+
+}
+-(void)onExit{
+    [super onExit];
+    [self unscheduleAllSelectors];
+}
 - (void)didLoadFromCCB {
     int highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highscore1"];
     _topscoreLab.string = [NSString stringWithFormat:@"%i", highScore];
     
+    
+    
+    [[OALSimpleAudio sharedInstance] playBg:@"gameplayFinal1.m4a" loop: true];
     
     _clouds = @[_cloud1, _cloud2];  //, _cloud3
     _grounds = @[_ground1, _ground2, _ground3, _ground4];
@@ -90,16 +133,6 @@
     self.score = 0;
     [_physicsNode addChild: hero];
     hero.position = ccp(107.f, 83.f);
-//    [_cartNode addChild: hero];
-//    hero.position = ccp(0.f, 0.f);
-    
-    //    COME REDO XAXIS
-//        [self runAction:[CCActionFollow actionWithTarget:(hero) worldBoundary:CGRectMake(0,0,0,0)]];
-//        CGRect worldBounds = CGRectMake(0, 0, [CCDirector sharedDirector].viewSize.width, [CCDirector sharedDirector].viewSize.height);
-    //    // NOTE: the width of the worldBounds is ignored in a CCActionFollowAxisHorizontal -- only the height is important
-    //
-//        CCActionFollowAxisHorizontal* followHorizontal = [CCActionFollowHorizontal actionWithTarget:hero worldBoundary:worldBounds];
-//        [gameplay runAction:followHorizontal];
 
     _physicsNode.collisionDelegate = self;
     self.userInteractionEnabled = TRUE;
@@ -119,6 +152,21 @@
     swipeDown.direction = UISwipeGestureRecognizerDirectionDown;
     [[[CCDirector sharedDirector]view]addGestureRecognizer:swipeDown];
     
+    // hacky stuff: cache obstacles and monsters and stuff
+    CCNode* temp1 = [CCBReader load: @"astroidthrow"];
+    CCNode* temp2 = [CCBReader load: @"monster2"];
+    CCNode* temp3 = [CCBReader load:@"Obstacle"];
+    CCNode* temp4 = [CCBReader load: @"throw1"];
+    CCNode* temp5 = [CCBReader load: @"throw2"];
+    CCNode* temp6 = [CCBReader load:@"coins"];
+    
+    // extra hacky stuff: this is a workaround for a cocos2d bug
+    temp1.animationManager.paused = YES;
+    temp2.animationManager.paused = YES;
+    temp3.animationManager.paused = YES;
+    temp4.animationManager.paused = YES;
+    temp5.animationManager.paused = YES;
+    temp6.animationManager.paused = YES;
     
 }
 //just stays at the start
@@ -183,6 +231,7 @@
 }
 -(void)addThrowable{
     _thrownT = (Obstacles *)[CCBReader load: @"throw1"];
+    _thrownT.Collidable = FALSE;
     [_throwableObj addObject:_thrownT];
     CGPoint screenPosition = [self convertToWorldSpace:ccp(700, 130)];
     CGPoint worldPosition = [_physicsNode convertToNodeSpace:screenPosition];
@@ -204,26 +253,6 @@
     
 }
 
-
-//-(void)addPlatform{
-//    _platform = (Obstacles *)[CCBReader load: @"platforms"];
-//    [_throwableObj addObject:_platform];
-//    int lowerBound = 60;
-//    int upperBound = 130;
-//    int rndValue2 = lowerBound + arc4random() % (upperBound - lowerBound);
-//    int lowerBoundx = 200;
-//    int upperBoundx = 540;
-//    int rndValuex = lowerBoundx + arc4random() % (upperBoundx - lowerBoundx);
-//    
-//    CGPoint screenPosition = [self convertToWorldSpace:ccp(rndValuex, rndValue2)];
-//    CGPoint worldPosition = [_physicsNode convertToNodeSpace:screenPosition];
-//    _platform.position = worldPosition;
-//    _platform.physicsBody.collisionGroup = _obs;
-//       _platform.physicsBody.collisionGroup = _throwableObj;
-//    [_physicsNode addChild:_platform];
-//    
-//
-//}
 
 -(void) addCoins{
     _coin = (CCSprite*)[CCBReader load:@"coins"];
@@ -261,18 +290,18 @@
     _planted = (Obstacles *)[CCBReader load:@"monster2"];
     [_throwableObj addObject:_planted];
     
-    int lowerBoundy = 60;
-    int upperBoundy = 250;
+    int lowerBoundy = 70;
+    int upperBoundy = 75;
     int rndValuey = lowerBoundy + arc4random() % (upperBoundy - lowerBoundy);
     
-    CGPoint screenPosition = [self convertToWorldSpace:ccp(550, rndValuey)];
+    CGPoint screenPosition = [self convertToWorldSpace:ccp(570, rndValuey)];
     CGPoint worldPosition = [_physicsNode convertToNodeSpace:screenPosition];
     _planted.position = worldPosition;
     _planted.physicsBody.collisionGroup = _obs;
     //monster should not run into the spikes or the barrell fix
 //    _planted.physicsBody.collisionGroup = _obs;
     [_physicsNode addChild:_planted];
-    [_planted.physicsBody applyImpulse:ccp(-200.f, 20.f)];
+    [_planted.physicsBody applyImpulse:ccp(-250.f, 0.f)];
     
 }
 
@@ -294,75 +323,22 @@
     
 }
 
-//- (void)depInCart{
-//    //Fix nill check so exception is not thrown.
-//    if (self.cartNode.children.firstObject== NULL || self.cartNode.children.count >0){
-//        Hero* subhero = hero;
-//        CGPoint worldPosition = [subhero convertToWorldSpace:ccp(0.f,0.f)];
-//        CGPoint screenPosition = [_physicsNode convertToNodeSpace:worldPosition];
-//        [hero removeFromParent];
-//        [self.cartNode addChild: subhero];
-//        subhero.position = screenPosition;
-//        subhero.physicsBody.type = CCPhysicsBodyTypeStatic;
-//        NSLog(@"Barrell has been STORED");
-//    }else{
-//        //        _throwbutton.visible = false;
-//    }
-//
-//}
-
 
  static const CGFloat scrollSpeed = 230.f;
 
 -(void) update:(CCTime)delta{
     hero.position = ccp(hero.position.x + (delta * scrollSpeed), hero.position.y);
     _cartNode.position = ccp(_cartNode.position.x + (delta * scrollSpeed), _cartNode.position.y);
-    
     _physicsNode.position = ccp(_physicsNode.position.x - (scrollSpeed *delta), _physicsNode.position.y);
-    // Increment the time since the last obstacle was added
-    timeSinceObstacle += delta; // delta is approximately 1/60th of a second
-
+    
+    
     if(_HEROROTATED ==TRUE){
         timeRotated +=delta;
-        if (timeRotated>0.8f){
+        if (timeRotated>0.7f){
             hero.rotation = 0.f;
             _HEROROTATED =FALSE;
             timeRotated = 0;
         }
-    }
-    // Check to see if 8 seconds have passed
-    if (timeSinceObstacle > 1.0f)
-    {
-        [self addCoins];
-        totcount++;
-        // Add a new obstacle
-//        [self addPlatform];
-        
-        if (totcount %2==0){
-            
-            if (totcount %5==0){
-                                [self addAstroidMonster];
-            }else{
-                [self addThrowable];
-            }
-        }
-        if (totcount %4==0 && !totcount % 5==0){
-            [self addObstacle];
-            
-            
-        }if ( totcount % 3==0) {
-//            [self addThrowable];
-            if ((totcount%2 ==0)) {
-                [self addMonster];
-            }else{
-                [self addThrowableStroid];
-
-            }
-//            THIS SHOULD BE ADD MONSTER< MOVE WEAPONS TO LESS FREQ
-        }
-        // Then reset the timer.
-        
-     timeSinceObstacle = 0.0f;
     }
     // move and loop the bushes
     for (CCNode *ground in _grounds) {
@@ -417,12 +393,14 @@
 
 
 - (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)nodeA barrell:(Obstacles *)nodeB { [[_physicsNode space]addPostStepBlock:^{
+    nodeB.physicsBody.type = CCPhysicsBodyTypeKinematic;
     if (hero.throw.children.count <1){
         [nodeB removeFromParentAndCleanup:true];
-        nodeB.physicsBody.type = CCPhysicsBodyTypeKinematic;
+        
         [hero.throw addChild:nodeB];
         nodeB.position = ccp(0.f,0.f);
         [_throwableObj removeObject:nodeB];
+        nodeB.Collidable = TRUE;
     }
 
     
@@ -430,6 +408,7 @@
     
 }key:nil];
     return false;
+
 }
 
 - (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)nodeA stroid:(Obstacles *)nodeB { [[_physicsNode space]addPostStepBlock:^{
@@ -439,14 +418,15 @@
         [hero.throw addChild:nodeB];
         nodeB.position = ccp(0.f,0.f);
          [_throwableObj removeObject:nodeB];
+        nodeB.Collidable = TRUE;
     }
     
     
     NSLog(@" hero picked up stroid");
     
 }key:nil];
+
     return false;
-    
 }
 
 
@@ -455,7 +435,7 @@
     [self gameOver];
     
     NSLog(@"collision with spikes");
-    
+    [MGWU logEvent:@"hero died by ghost monster" withParams:nil];
 }key:nil];
     
     
@@ -465,7 +445,7 @@
     [self gameOver];
     
     NSLog(@"collision with spikes");
-    
+    [MGWU logEvent:@"hero died by mummie monster" withParams:nil];
 }key:nil];
     
     
@@ -475,7 +455,7 @@
     [self gameOver];
     
     NSLog(@"hero collision with spikes");
-    
+    [MGWU logEvent:@"hero died on tombstone" withParams:nil];
 }key:nil];
 }
 
@@ -492,14 +472,11 @@
 }
 
 
-- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair barrell:(CCNode *)nodeA monster:(CCNode *)
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair barrell:(Obstacles *)nodeA monster:(CCNode *)
 nodeB {
     
 
-    if( true == 0){
-//       need velo check on barrel. if still do not do this
-    }
-    else{
+    if(nodeA.Collidable == true){
     [[_physicsNode space]addPostStepBlock:^{
         [nodeA removeFromParent];
         CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"dyingmonst"];
@@ -508,7 +485,7 @@ nodeB {
         [nodeB.parent addChild:explosion];
         [nodeB removeFromParent];
         
-        self.score = self.score +100;
+        self.score = self.score +25;
         _scoreLab.string = ([NSString stringWithFormat:@"%d", self.score]);
         
     NSLog(@"hit monster with barrell");
@@ -516,11 +493,12 @@ nodeB {
 }key:nil];
     
     }
+    return false;
 }
-- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair stroid:(CCNode *)nodeA monster2:(CCNode *)
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair stroid:(Obstacles *)nodeA monster2:(CCNode *)
 nodeB {
     
-    if (!nodeA.position.y <100 ){
+    if (nodeA.Collidable == true ){
         [[_physicsNode space]addPostStepBlock:^{
             [nodeA removeFromParent];
             CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"dyingmonst"];
@@ -529,20 +507,20 @@ nodeB {
             [nodeB.parent addChild:explosion];
             [nodeB removeFromParent];
             
-            self.score = self.score +100;
+            self.score = self.score +25;
             _scoreLab.string = ([NSString stringWithFormat:@"%d", self.score]);
         
             NSLog(@"hit monster2 with stroid");
         
         }key:nil];
     }
-    
+    return FALSE;
 }
 
-- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair stroid:(CCNode *)nodeA monster:(CCNode *)
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair stroid:(Obstacles *)nodeA monster:(CCNode *)
 nodeB {
     
-    if (!nodeA.position.y <100 ){
+    if (nodeA.Collidable ==TRUE ){
         [[_physicsNode space]addPostStepBlock:^{
             [nodeA removeFromParent];
             CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"dyingmonst"];
@@ -551,21 +529,21 @@ nodeB {
             [nodeB.parent addChild:explosion];
             [nodeB removeFromParent];
             
-            self.score = self.score -50;
+            self.score = self.score +10;
             _scoreLab.string = ([NSString stringWithFormat:@"%d", self.score]);
             
             NSLog(@"hit monster2 with stroid");
             
         }key:nil];
     }
-    
+    return FALSE;
 }
 
 
-- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair barrell:(CCNode *)nodeA monster2:(CCNode *)
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair barrell:(Obstacles *)nodeA monster2:(CCNode *)
 nodeB {
     
-    if (!nodeA.position.y <100 ){
+    if (nodeA.Collidable ==true ){
         [[_physicsNode space]addPostStepBlock:^{
             [nodeA removeFromParent];
             CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"dyingmonst"];
@@ -574,14 +552,37 @@ nodeB {
             [nodeB.parent addChild:explosion];
             [nodeB removeFromParent];
             
-            self.score = self.score -50;
+            self.score = self.score +10;
             _scoreLab.string = ([NSString stringWithFormat:@"%d", self.score]);
             
             NSLog(@"hit monster2 with stroid");
             
         }key:nil];
     }
+    return false;
+}
+
+
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair monster:(CCNode *)nodeA coin:(CCNode *)
+nodeB {
     
+        [[_physicsNode space]addPostStepBlock:^{
+
+            
+        }key:nil];
+    
+    return false;
+}
+
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair monster2:(CCNode *)nodeA coin:(CCNode *)
+nodeB {
+    
+    [[_physicsNode space]addPostStepBlock:^{
+        
+        
+    }key:nil];
+    
+    return false;
 }
 
 
@@ -640,6 +641,38 @@ nodeB {
 }
 
 
+-(void) pauseGP{
+    
+    if (self.paused == false){
+        
+        pausemenu = (CCNode *) [CCBReader load:@"pause" owner: self];
+        //pop up with settings menu
+
+        pausemenu.positionType = CCPositionTypeNormalized;
+        pausemenu.position = ccp(0.5, 0.5);
+        pausemenu.zOrder = INT_MAX;
+        [self addChild:(pausemenu)];
+        self.paused = YES;
+    }else{
+        [pausemenu removeFromParentAndCleanup:TRUE];
+        pausemenu.visible = false;
+        self.paused = NO;
+    }
+  
+//    open popup with pause menu
+}
+-(void)settingsButton{
+    //    Setting pop up tab
+    _settingsmenu = (CCNode *)[CCBReader load:@"Settings" owner:self];
+    _settingsmenu.positionType = CCPositionTypeNormalized;
+    _settingsmenu.position = ccp(0.5, 0.5);
+    _settingsmenu.zOrder = INT_MAX;
+    [self addChild:_settingsmenu];
+}
+-(void)close{
+    [_settingsmenu removeFromParent];
+}
+
 
 - (void)gameOver{
     //Create popup?
@@ -655,6 +688,11 @@ nodeB {
         ;
          _topscoreLab.string = [NSString stringWithFormat:@"%d", highScore2];
         highScore = highScore2;
+        [MGWU submitHighScore:highScore byPlayer:[[NSUserDefaults standardUserDefaults] objectForKey:@"username" ] forLeaderboard:@"defaultLeaderboard1"];
+        
+        NSNumber* score = [NSNumber numberWithInt:highScore];
+        NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys: score, @"score", nil];
+        [MGWU logEvent:@"scores" withParams:params];
     }
     
     GameEnd *gameEndPopover = (GameEnd *)[CCBReader load:@"GameEnd"];
@@ -663,17 +701,8 @@ nodeB {
     gameEndPopover.zOrder = INT_MAX;
 
     [gameEndPopover setMessage:_topscoreLab.string score:_scoreLab.string];
-
+    _pausebutton.enabled = false;
     [self addChild:gameEndPopover];
-    
-    
-//    GameEnd *gameEndPopover = (GameEnd*)[CCBReader load:@"EndGame"];
-//        gameEndPopover.positionType = CCPositionTypeNormalized;
-//        gameEndPopover.position = ccp(0.5, 0.5);
-//        gameEndPopover.zOrder = INT_MAX;
-//        //set scores
-//       [self addChild:gameEndPopover];
-//    
     
 }
 

@@ -33,11 +33,11 @@
 		<key>backrounds/Pixel-Alien-9@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3549, 310}, {254, 162}}</string>
+			<string>{{3839, 283}, {254, 162}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {254, 162}}</string>
 			<key>sourceSize</key>
@@ -46,7 +46,7 @@
 		<key>backrounds/barrel@4x-2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3189, 369}, {212, 228}}</string>
+			<string>{{3831, 767}, {212, 228}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -72,7 +72,7 @@
 		<key>backrounds/cloudy-sky-hd.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3419, 499}, {960, 640}}</string>
+			<string>{{3189, 386}, {960, 640}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -121,10 +121,23 @@
 			<key>sourceSize</key>
 			<string>{2048, 1536}</string>
 		</dict>
+		<key>backrounds/cooltext1680292378.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3549, 207}, {455, 74}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {455, 74}}</string>
+			<key>sourceSize</key>
+			<string>{455, 74}</string>
+		</dict>
 		<key>backrounds/half sword.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3549, 207}, {101, 288}}</string>
+			<string>{{3549, 283}, {101, 288}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -137,11 +150,11 @@
 		<key>backrounds/horizontal_moving_platform2@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3805, 435}, {250, 62}}</string>
+			<string>{{4006, 207}, {250, 62}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {250, 62}}</string>
 			<key>sourceSize</key>
@@ -150,7 +163,7 @@
 		<key>backrounds/object_mine-objects_9ef7e43ae6c1aa1cbffae3d3a6273d4c42345870@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3839, 207}, {256, 226}}</string>
+			<string>{{3831, 539}, {256, 226}}</string>
 			<key>offset</key>
 			<string>{0, -15}</string>
 			<key>rotated</key>
@@ -163,7 +176,7 @@
 		<key>backrounds/set_doggy-land_b736878e6992de1045343c155f0effa350f73425@4x.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{3419, 369}, {128, 128}}</string>
+			<string>{{3831, 981}, {128, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>

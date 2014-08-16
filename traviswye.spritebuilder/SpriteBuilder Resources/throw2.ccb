@@ -10,13 +10,13 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>1</integer>
+	<integer>3</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>docDimensionsType</key>
 	<integer>1</integer>
 	<key>fileType</key>
@@ -35,6 +35,11 @@
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
+		<key>animatedProperties</key>
+		<dict>
+			<key>1</key>
+			<dict/>
+		</dict>
 		<key>baseClass</key>
 		<string>CCSprite</string>
 		<key>children</key>
@@ -74,64 +79,96 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>-1.042999267578125</real>
-					<real>15.316390991210938</real>
+					<real>2.996063232421875</real>
+					<real>10.00390625</real>
 				</array>
 				<array>
-					<real>2.207000732421875</real>
-					<real>38.011703491210938</real>
+					<real>2.496063232421875</real>
+					<real>38.003890991210938</real>
 				</array>
 				<array>
-					<real>39.890594482421875</real>
-					<real>41.097640991210938</real>
+					<real>17.996063232421875</real>
+					<real>31.00390625</real>
 				</array>
 				<array>
-					<real>66.640594482421875</real>
-					<real>31.886703491210938</real>
+					<real>22.996063232421875</real>
+					<real>57.00390625</real>
 				</array>
 				<array>
-					<real>62.265594482421875</real>
-					<real>-2.3789215087890625</real>
+					<real>41.996063232421875</real>
+					<real>56.00390625</real>
 				</array>
 				<array>
-					<real>13.257781982421875</real>
-					<real>-2.4218902587890625</real>
+					<real>44.996063232421875</real>
+					<real>28.00390625</real>
 				</array>
 				<array>
-					<real>0.957000732421875</real>
-					<real>7.5937347412109375</real>
+					<real>61.996063232421875</real>
+					<real>36.00390625</real>
+				</array>
+				<array>
+					<real>60.996063232421875</real>
+					<real>11.00390625</real>
 				</array>
 			</array>
 			<key>polygons</key>
 			<array>
 				<array>
 					<array>
-						<real>0.957000732421875</real>
-						<real>7.5937347412109375</real>
+						<real>26.866157531738281</real>
+						<real>10.415459632873535</real>
 					</array>
 					<array>
-						<real>13.257781982421875</real>
-						<real>-2.4218902587890625</real>
+						<real>60.996063232421875</real>
+						<real>11.00390625</real>
 					</array>
 					<array>
-						<real>62.265594482421875</real>
-						<real>-2.3789215087890625</real>
+						<real>61.996063232421875</real>
+						<real>36.00390625</real>
 					</array>
 					<array>
-						<real>66.640594482421875</real>
-						<real>31.886703491210938</real>
+						<real>44.996063232421875</real>
+						<real>28.00390625</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>17.996063232421875</real>
+						<real>31.00390625</real>
 					</array>
 					<array>
-						<real>39.890594482421875</real>
-						<real>41.097640991210938</real>
+						<real>2.496063232421875</real>
+						<real>38.003890991210938</real>
 					</array>
 					<array>
-						<real>2.207000732421875</real>
-						<real>38.011703491210938</real>
+						<real>2.996063232421875</real>
+						<real>10.00390625</real>
 					</array>
 					<array>
-						<real>-1.042999267578125</real>
-						<real>15.316390991210938</real>
+						<real>26.866157531738281</real>
+						<real>10.415459632873535</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>26.866157531738281</real>
+						<real>10.415459632873535</real>
+					</array>
+					<array>
+						<real>44.996063232421875</real>
+						<real>28.00390625</real>
+					</array>
+					<array>
+						<real>41.996063232421875</real>
+						<real>56.00390625</real>
+					</array>
+					<array>
+						<real>22.996063232421875</real>
+						<real>57.00390625</real>
+					</array>
+					<array>
+						<real>17.996063232421875</real>
+						<real>31.00390625</real>
 					</array>
 				</array>
 			</array>
@@ -192,7 +229,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>backrounds/Pixel-Alien-9@4x.png</string>
+					<string>zombisprite/aa99c1077ac929db28f8ccf48e3c55d8.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -273,6 +310,42 @@
 			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
+			<key>soundChannel</key>
+			<dict>
+				<key>isExpanded</key>
+				<false/>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>autoPlay</key>
+			<false/>
+			<key>callbackChannel</key>
+			<dict>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>12</integer>
+			</dict>
+			<key>chainedSequenceId</key>
+			<integer>0</integer>
+			<key>length</key>
+			<real>1</real>
+			<key>name</key>
+			<string>Untitled Timeline</string>
+			<key>offset</key>
+			<real>0.0</real>
+			<key>position</key>
+			<real>0.76666665077209473</real>
+			<key>resolution</key>
+			<real>30</real>
+			<key>scale</key>
+			<real>128</real>
+			<key>sequenceId</key>
+			<integer>1</integer>
 			<key>soundChannel</key>
 			<dict>
 				<key>isExpanded</key>

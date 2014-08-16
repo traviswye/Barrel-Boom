@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>hero/hero1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{221, 315}, {185, 311}}</string>
+			<key>offset</key>
+			<string>{4, 5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{66, 30}, {185, 311}}</string>
+			<key>sourceSize</key>
+			<string>{309, 382}</string>
+		</dict>
+		<key>hero/hero10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{610, 409}, {227, 307}}</string>
+			<key>offset</key>
+			<string>{-15, -8}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{45, 43}, {227, 307}}</string>
+			<key>sourceSize</key>
+			<string>{348, 376}</string>
+		</dict>
+		<key>hero/hero11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{654, 192}, {215, 309}}</string>
+			<key>offset</key>
+			<string>{7, -6}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{49, 31}, {215, 309}}</string>
+			<key>sourceSize</key>
+			<string>{298, 358}</string>
+		</dict>
+		<key>hero/hero12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 628}, {197, 309}}</string>
+			<key>offset</key>
+			<string>{-7, -9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{21, 34}, {197, 309}}</string>
+			<key>sourceSize</key>
+			<string>{254, 358}</string>
+		</dict>
+		<key>hero/hero2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{212, 632}, {197, 311}}</string>
+			<key>offset</key>
+			<string>{0, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{69, 43}, {197, 311}}</string>
+			<key>sourceSize</key>
+			<string>{337, 389}</string>
+		</dict>
+		<key>hero/hero3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 632}, {209, 311}}</string>
+			<key>offset</key>
+			<string>{-2, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{81, 48}, {209, 311}}</string>
+			<key>sourceSize</key>
+			<string>{376, 393}</string>
+		</dict>
+		<key>hero/hero4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{428, 1}, {224, 310}}</string>
+			<key>offset</key>
+			<string>{-7, -3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{51, 30}, {224, 310}}</string>
+			<key>sourceSize</key>
+			<string>{341, 365}</string>
+		</dict>
+		<key>hero/hero5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{217, 1}, {209, 312}}</string>
+			<key>offset</key>
+			<string>{1, 5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{53, 20}, {209, 312}}</string>
+			<key>sourceSize</key>
+			<string>{313, 362}</string>
+		</dict>
+		<key>hero/hero6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{654, 1}, {189, 310}}</string>
+			<key>offset</key>
+			<string>{5, -7}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{64, 29}, {189, 310}}</string>
+			<key>sourceSize</key>
+			<string>{306, 354}</string>
+		</dict>
+		<key>hero/hero7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{408, 315}, {182, 311}}</string>
+			<key>offset</key>
+			<string>{-3, -9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{38, 33}, {182, 311}}</string>
+			<key>sourceSize</key>
+			<string>{265, 358}</string>
+		</dict>
+		<key>hero/hero8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {214, 314}}</string>
+			<key>offset</key>
+			<string>{-11, -18}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{54, 47}, {214, 314}}</string>
+			<key>sourceSize</key>
+			<string>{345, 372}</string>
+		</dict>
+		<key>hero/hero9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 317}, {218, 313}}</string>
+			<key>offset</key>
+			<string>{-15, -10}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{27, 40}, {218, 313}}</string>
+			<key>sourceSize</key>
+			<string>{303, 372}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>textureFileName</key>
+		<string>hero.png</string>
+	</dict>
+</dict>
+</plist>
